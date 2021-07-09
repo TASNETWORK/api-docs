@@ -1,0 +1,9 @@
+type: object
+properties:
+  cityId:
+    type: integer
+    format: int64
+  id:
+    type: integer
+    format: int64
+additionalProperties: false

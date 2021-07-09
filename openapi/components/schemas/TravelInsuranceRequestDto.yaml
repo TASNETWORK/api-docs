@@ -1,0 +1,34 @@
+type: object
+properties:
+  originId:
+    type: integer
+    format: int64
+  destinyId:
+    type: integer
+    format: int64
+  contactEmailAddress:
+    type: string
+    nullable: true
+  contactPhoneNumber:
+    type: string
+    nullable: true
+  discountCode:
+    type: string
+    nullable: true
+  isPaid:
+    type: boolean
+  planId:
+    type: integer
+    format: int64
+    nullable: true
+  hashCode:
+    type: string
+    nullable: true
+  cityId:
+    type: integer
+    format: int64
+    nullable: true
+  id:
+    type: integer
+    format: int64
+additionalProperties: false

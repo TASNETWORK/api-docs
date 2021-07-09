@@ -1,0 +1,30 @@
+type: object
+properties:
+  planId:
+    type: integer
+    format: int64
+  quoteCode:
+    type: string
+    nullable: true
+  price:
+    type: number
+    format: double
+  perksPrice:
+    type: number
+    format: double
+  priceWithoutModifiers:
+    type: number
+    format: double
+  exchangeRate:
+    type: number
+    format: double
+  reasonTripId:
+    type: integer
+    format: int64
+    nullable: true
+  customers:
+    type: array
+    items:
+      $ref: .\TravelInsuranceCustomerDto.yaml
+    nullable: true
+additionalProperties: false

@@ -1,0 +1,14 @@
+type: object
+properties:
+  version:
+    type: string
+    nullable: true
+  releaseDate:
+    type: string
+    format: date-time
+  features:
+    type: object
+    additionalProperties:
+      type: boolean
+    nullable: true
+additionalProperties: false

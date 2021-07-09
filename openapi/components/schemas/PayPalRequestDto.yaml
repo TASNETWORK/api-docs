@@ -1,0 +1,14 @@
+type: object
+properties:
+  paymentId:
+    type: string
+    nullable: true
+  payerId:
+    type: string
+    nullable: true
+  code:
+    type: string
+    nullable: true
+  paymentEntityType:
+    $ref: .\PaymentEntityType.yaml
+additionalProperties: false

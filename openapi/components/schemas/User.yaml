@@ -1,0 +1,165 @@
+required:
+  - emailAddress
+  - name
+  - normalizedEmailAddress
+  - normalizedUserName
+  - password
+  - surname
+  - userName
+type: object
+properties:
+  normalizedUserName:
+    maxLength: 256
+    minLength: 0
+    type: string
+    nullable: true
+  normalizedEmailAddress:
+    maxLength: 256
+    minLength: 0
+    type: string
+    nullable: true
+  concurrencyStamp:
+    maxLength: 128
+    minLength: 0
+    type: string
+    nullable: true
+  tokens:
+    type: array
+    items:
+      $ref: .\UserToken.yaml
+    nullable: true
+  deleterUser:
+    $ref: .\User.yaml
+  creatorUser:
+    $ref: .\User.yaml
+  lastModifierUser:
+    $ref: .\User.yaml
+  authenticationSource:
+    maxLength: 64
+    minLength: 0
+    type: string
+    nullable: true
+  userName:
+    maxLength: 256
+    minLength: 0
+    type: string
+    nullable: true
+  tenantId:
+    type: integer
+    format: int32
+    nullable: true
+  emailAddress:
+    maxLength: 256
+    minLength: 0
+    type: string
+    nullable: true
+  name:
+    maxLength: 64
+    minLength: 0
+    type: string
+    nullable: true
+  surname:
+    maxLength: 64
+    minLength: 0
+    type: string
+    nullable: true
+  fullName:
+    type: string
+    nullable: true
+    readOnly: true
+  password:
+    maxLength: 128
+    minLength: 0
+    type: string
+    nullable: true
+  emailConfirmationCode:
+    maxLength: 328
+    minLength: 0
+    type: string
+    nullable: true
+  passwordResetCode:
+    maxLength: 328
+    minLength: 0
+    type: string
+    nullable: true
+  lockoutEndDateUtc:
+    type: string
+    format: date-time
+    nullable: true
+  accessFailedCount:
+    type: integer
+    format: int32
+  isLockoutEnabled:
+    type: boolean
+  phoneNumber:
+    maxLength: 32
+    minLength: 0
+    type: string
+    nullable: true
+  isPhoneNumberConfirmed:
+    type: boolean
+  securityStamp:
+    maxLength: 128
+    minLength: 0
+    type: string
+    nullable: true
+  isTwoFactorEnabled:
+    type: boolean
+  logins:
+    type: array
+    items:
+      $ref: .\UserLogin.yaml
+    nullable: true
+  roles:
+    type: array
+    items:
+      $ref: .\UserRole.yaml
+    nullable: true
+  claims:
+    type: array
+    items:
+      $ref: .\UserClaim.yaml
+    nullable: true
+  permissions:
+    type: array
+    items:
+      $ref: .\UserPermissionSetting.yaml
+    nullable: true
+  settings:
+    type: array
+    items:
+      $ref: .\Setting.yaml
+    nullable: true
+  isEmailConfirmed:
+    type: boolean
+  isActive:
+    type: boolean
+  isDeleted:
+    type: boolean
+  deleterUserId:
+    type: integer
+    format: int64
+    nullable: true
+  deletionTime:
+    type: string
+    format: date-time
+    nullable: true
+  lastModificationTime:
+    type: string
+    format: date-time
+    nullable: true
+  lastModifierUserId:
+    type: integer
+    format: int64
+    nullable: true
+  creationTime:
+    type: string
+    format: date-time
+  creatorUserId:
+    type: integer
+    format: int64
+    nullable: true
+  id:
+    type: integer
+    format: int64
+additionalProperties: false

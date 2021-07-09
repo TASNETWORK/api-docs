@@ -1,0 +1,41 @@
+type: object
+properties:
+  name:
+    type: string
+    nullable: true
+    readOnly: true
+  visa:
+    $ref: .\Visa.yaml
+  visaId:
+    type: integer
+    format: int64
+    readOnly: true
+  isDeleted:
+    type: boolean
+  deleterUserId:
+    type: integer
+    format: int64
+    nullable: true
+  deletionTime:
+    type: string
+    format: date-time
+    nullable: true
+  lastModificationTime:
+    type: string
+    format: date-time
+    nullable: true
+  lastModifierUserId:
+    type: integer
+    format: int64
+    nullable: true
+  creationTime:
+    type: string
+    format: date-time
+  creatorUserId:
+    type: integer
+    format: int64
+    nullable: true
+  id:
+    type: integer
+    format: int64
+additionalProperties: false

@@ -1,0 +1,15 @@
+type: object
+properties:
+  accessToken:
+    type: string
+    nullable: true
+  encryptedAccessToken:
+    type: string
+    nullable: true
+  expireInSeconds:
+    type: integer
+    format: int32
+  userId:
+    type: integer
+    format: int64
+additionalProperties: false

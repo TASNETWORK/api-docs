@@ -1,0 +1,12 @@
+type: object
+properties:
+  discountCodeId:
+    type: integer
+    format: int64
+  userId:
+    type: integer
+    format: int64
+  discountCode:
+    type: string
+    nullable: true
+additionalProperties: false

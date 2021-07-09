@@ -1,0 +1,9 @@
+type: object
+properties:
+  application:
+    $ref: .\ApplicationInfoDto.yaml
+  user:
+    $ref: .\UserLoginInfoDto.yaml
+  tenant:
+    $ref: .\TenantLoginInfoDto.yaml
+additionalProperties: false

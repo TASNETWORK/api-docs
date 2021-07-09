@@ -1,0 +1,28 @@
+get:
+  tags:
+    - DashboardQuotation
+  parameters:
+    - name: request
+      in: query
+      schema:
+        type: string
+    - name: Authentication
+      in: header
+      required: true
+      schema:
+        type: string
+        default: >-
+          c3B2LTItUEFnOVRmWjg5UVZqWjVZSDhVWkZoc3RrRHBHbmNkSkNxUUI4R2NTc1NxbXVrYjM0R0RBQVVETDlDNDdGN0Y4bg==
+  responses:
+    '200':
+      description: Success
+      content:
+        text/plain:
+          schema:
+            $ref: ..\components\schemas\TravelInsuranceQuoteResponseDto.yaml
+        application/json:
+          schema:
+            $ref: ..\components\schemas\TravelInsuranceQuoteResponseDto.yaml
+        text/json:
+          schema:
+            $ref: ..\components\schemas\TravelInsuranceQuoteResponseDto.yaml

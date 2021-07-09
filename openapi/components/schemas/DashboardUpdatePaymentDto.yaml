@@ -1,0 +1,14 @@
+type: object
+properties:
+  paymentEngineType:
+    $ref: .\PaymentEngineType.yaml
+  travelInsuranceRequestId:
+    type: integer
+    format: int64
+  paymentId:
+    type: string
+    nullable: true
+  description:
+    type: string
+    nullable: true
+additionalProperties: false

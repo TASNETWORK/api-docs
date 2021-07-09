@@ -1,0 +1,63 @@
+required:
+  - name
+  - tenancyName
+type: object
+properties:
+  edition:
+    $ref: .\Edition.yaml
+  editionId:
+    type: integer
+    format: int32
+    nullable: true
+  creatorUser:
+    $ref: .\User.yaml
+  lastModifierUser:
+    $ref: .\User.yaml
+  deleterUser:
+    $ref: .\User.yaml
+  tenancyName:
+    maxLength: 64
+    minLength: 0
+    type: string
+    nullable: true
+  name:
+    maxLength: 128
+    minLength: 0
+    type: string
+    nullable: true
+  connectionString:
+    maxLength: 1024
+    minLength: 0
+    type: string
+    nullable: true
+  isActive:
+    type: boolean
+  isDeleted:
+    type: boolean
+  deleterUserId:
+    type: integer
+    format: int64
+    nullable: true
+  deletionTime:
+    type: string
+    format: date-time
+    nullable: true
+  lastModificationTime:
+    type: string
+    format: date-time
+    nullable: true
+  lastModifierUserId:
+    type: integer
+    format: int64
+    nullable: true
+  creationTime:
+    type: string
+    format: date-time
+  creatorUserId:
+    type: integer
+    format: int64
+    nullable: true
+  id:
+    type: integer
+    format: int32
+additionalProperties: false

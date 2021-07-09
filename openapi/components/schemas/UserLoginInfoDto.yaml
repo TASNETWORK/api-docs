@@ -1,0 +1,18 @@
+type: object
+properties:
+  name:
+    type: string
+    nullable: true
+  surname:
+    type: string
+    nullable: true
+  userName:
+    type: string
+    nullable: true
+  emailAddress:
+    type: string
+    nullable: true
+  id:
+    type: integer
+    format: int64
+additionalProperties: false

@@ -1,0 +1,8 @@
+type: object
+properties:
+  customer:
+    $ref: .\UpdateImmigrationAssistanceRequestCustomer.yaml
+  id:
+    type: integer
+    format: int64
+additionalProperties: false

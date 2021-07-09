@@ -1,0 +1,38 @@
+put:
+  tags:
+    - TravelInsuranceRequest
+  parameters:
+    - name: Authentication
+      in: header
+      required: true
+      schema:
+        type: string
+        default: >-
+          c3B2LTItUEFnOVRmWjg5UVZqWjVZSDhVWkZoc3RrRHBHbmNkSkNxUUI4R2NTc1NxbXVrYjM0R0RBQVVETDlDNDdGN0Y4bg==
+  requestBody:
+    content:
+      application/json-patch+json:
+        schema:
+          $ref: ..\components\schemas\TravelInsuranceRequestDto.yaml
+      application/json:
+        schema:
+          $ref: ..\components\schemas\TravelInsuranceRequestDto.yaml
+      text/json:
+        schema:
+          $ref: ..\components\schemas\TravelInsuranceRequestDto.yaml
+      application/*+json:
+        schema:
+          $ref: ..\components\schemas\TravelInsuranceRequestDto.yaml
+  responses:
+    '200':
+      description: Success
+      content:
+        text/plain:
+          schema:
+            $ref: ..\components\schemas\TravelInsuranceRequestDto.yaml
+        application/json:
+          schema:
+            $ref: ..\components\schemas\TravelInsuranceRequestDto.yaml
+        text/json:
+          schema:
+            $ref: ..\components\schemas\TravelInsuranceRequestDto.yaml

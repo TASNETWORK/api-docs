@@ -1,0 +1,26 @@
+required:
+  - displayName
+  - name
+type: object
+properties:
+  name:
+    maxLength: 32
+    minLength: 0
+    type: string
+    nullable: true
+  displayName:
+    maxLength: 64
+    minLength: 0
+    type: string
+    nullable: true
+  description:
+    maxLength: 5000
+    minLength: 0
+    type: string
+    nullable: true
+  isStatic:
+    type: boolean
+  id:
+    type: integer
+    format: int32
+additionalProperties: false

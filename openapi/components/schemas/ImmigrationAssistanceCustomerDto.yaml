@@ -1,0 +1,41 @@
+type: object
+properties:
+  name:
+    type: string
+    nullable: true
+  lastName:
+    type: string
+    nullable: true
+  email:
+    type: string
+    nullable: true
+  isInsuranceReserved:
+    type: boolean
+  customerGroupCount:
+    type: integer
+    format: int32
+  monthlyIncome:
+    type: number
+    format: double
+  hasRequestVisaBefore:
+    type: boolean
+  possesAnyGoods:
+    type: boolean
+  jobType:
+    $ref: .\JobType.yaml
+  phoneNumber:
+    type: string
+    nullable: true
+  age:
+    type: integer
+    format: int32
+  officialDocument:
+    type: string
+    nullable: true
+  immigrationAssistanceId:
+    type: integer
+    format: int64
+  id:
+    type: integer
+    format: int64
+additionalProperties: false

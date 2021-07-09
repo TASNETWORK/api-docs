@@ -1,0 +1,35 @@
+type: object
+properties:
+  domain:
+    type: string
+    nullable: true
+  phone:
+    type: string
+    nullable: true
+  code:
+    type: string
+    nullable: true
+  mobilLiveChat:
+    type: string
+    nullable: true
+  desktopLiveChat:
+    type: string
+    nullable: true
+  backgroundImageUrl:
+    type: string
+    nullable: true
+  mobilBackgroundImageUrl:
+    type: string
+    nullable: true
+  tabletBackgroundImageUrl:
+    type: string
+    nullable: true
+  googleCommitsUrl:
+    type: string
+    nullable: true
+  paymentMethods:
+    type: array
+    items:
+      $ref: .\PaymentMethodDto.yaml
+    nullable: true
+additionalProperties: false

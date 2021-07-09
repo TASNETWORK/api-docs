@@ -1,0 +1,14 @@
+type: object
+properties:
+  status:
+    $ref: .\TravelInsuranceRequestStatusEnum.yaml
+  email:
+    type: string
+    nullable: true
+  customerId:
+    type: integer
+    format: int64
+  id:
+    type: integer
+    format: int64
+additionalProperties: false

@@ -1,0 +1,38 @@
+required:
+  - emailAddress
+  - name
+  - password
+  - surname
+  - userName
+type: object
+properties:
+  name:
+    maxLength: 64
+    minLength: 0
+    type: string
+    nullable: true
+  surname:
+    maxLength: 64
+    minLength: 0
+    type: string
+    nullable: true
+  userName:
+    maxLength: 256
+    minLength: 0
+    type: string
+    nullable: true
+  emailAddress:
+    maxLength: 256
+    minLength: 0
+    type: string
+    format: email
+    nullable: true
+  password:
+    maxLength: 32
+    minLength: 0
+    type: string
+    nullable: true
+  captchaResponse:
+    type: string
+    nullable: true
+additionalProperties: false

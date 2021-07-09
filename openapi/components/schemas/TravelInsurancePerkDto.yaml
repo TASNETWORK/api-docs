@@ -1,0 +1,20 @@
+type: object
+properties:
+  imageUrl:
+    type: string
+    nullable: true
+  name:
+    type: string
+    nullable: true
+  description:
+    type: string
+    nullable: true
+  isFree:
+    type: boolean
+  price:
+    type: number
+    format: double
+  id:
+    type: integer
+    format: int64
+additionalProperties: false

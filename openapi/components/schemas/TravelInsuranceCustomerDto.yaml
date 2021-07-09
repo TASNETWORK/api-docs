@@ -1,0 +1,115 @@
+type: object
+properties:
+  travelInsuranceRequestId:
+    type: integer
+    format: int64
+  perksIds:
+    type: array
+    items:
+      type: integer
+      format: int64
+    nullable: true
+  planName:
+    type: string
+    nullable: true
+  tenantName:
+    type: string
+    nullable: true
+  paymentReference:
+    type: string
+    nullable: true
+  paymentEngineName:
+    type: string
+    nullable: true
+  price:
+    type: number
+    format: double
+  code:
+    type: integer
+    format: int64
+  discountCode:
+    type: string
+    nullable: true
+  tenantId:
+    type: integer
+    format: int32
+  phone:
+    type: string
+    nullable: true
+  origin:
+    type: string
+    nullable: true
+  destiny:
+    type: string
+    nullable: true
+  hashCode:
+    type: string
+    nullable: true
+  pax:
+    type: integer
+    format: int32
+  departureDate:
+    type: string
+    format: date-time
+  arrivalDate:
+    type: string
+    format: date-time
+  travelDayLength:
+    type: integer
+    format: int32
+  status:
+    type: string
+    nullable: true
+  customerId:
+    type: integer
+    format: int64
+  customerDocument:
+    type: string
+    nullable: true
+  totalPassenger:
+    type: integer
+    format: int32
+  creationTime:
+    type: string
+    format: date-time
+  leadSource:
+    type: string
+    nullable: true
+  perks:
+    type: array
+    items:
+      $ref: .\TravelInsuranceRequestPerk.yaml
+    nullable: true
+  exchangeRate:
+    type: number
+    format: double
+  priceWithoutModifiers:
+    type: number
+    format: double
+  perksPrice:
+    type: number
+    format: double
+  name:
+    type: string
+    nullable: true
+  lastName:
+    type: string
+    nullable: true
+  officialDocument:
+    type: string
+    nullable: true
+  birthDate:
+    type: string
+    format: date-time
+  age:
+    type: integer
+    format: int32
+  isMainCustomer:
+    type: boolean
+  email:
+    type: string
+    nullable: true
+  id:
+    type: integer
+    format: int64
+additionalProperties: false

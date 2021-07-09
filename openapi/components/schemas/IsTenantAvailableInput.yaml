@@ -1,0 +1,10 @@
+required:
+  - tenancyName
+type: object
+properties:
+  tenancyName:
+    maxLength: 64
+    minLength: 0
+    type: string
+    nullable: true
+additionalProperties: false

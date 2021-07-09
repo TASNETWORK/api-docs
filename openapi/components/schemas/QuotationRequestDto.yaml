@@ -1,0 +1,43 @@
+type: object
+properties:
+  ages:
+    type: array
+    items:
+      type: integer
+      format: int32
+    nullable: true
+  email:
+    type: string
+    nullable: true
+  customerName:
+    type: string
+    nullable: true
+  customerLastName:
+    type: string
+    nullable: true
+  originVisaId:
+    type: integer
+    format: int64
+  destinyVisaId:
+    type: integer
+    format: int64
+  cityId:
+    type: integer
+    format: int64
+    nullable: true
+  arrivalDate:
+    type: string
+    format: date-time
+  departureDate:
+    type: string
+    format: date-time
+  phone:
+    type: string
+    nullable: true
+  discountCode:
+    type: string
+    nullable: true
+  source:
+    type: string
+    nullable: true
+additionalProperties: false

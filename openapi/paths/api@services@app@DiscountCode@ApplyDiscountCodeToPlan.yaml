@@ -1,0 +1,38 @@
+post:
+  tags:
+    - DiscountCode
+  parameters:
+    - name: Authentication
+      in: header
+      required: true
+      schema:
+        type: string
+        default: >-
+          c3B2LTItUEFnOVRmWjg5UVZqWjVZSDhVWkZoc3RrRHBHbmNkSkNxUUI4R2NTc1NxbXVrYjM0R0RBQVVETDlDNDdGN0Y4bg==
+  requestBody:
+    content:
+      application/json-patch+json:
+        schema:
+          $ref: ..\components\schemas\PlanDiscountCodeDto.yaml
+      application/json:
+        schema:
+          $ref: ..\components\schemas\PlanDiscountCodeDto.yaml
+      text/json:
+        schema:
+          $ref: ..\components\schemas\PlanDiscountCodeDto.yaml
+      application/*+json:
+        schema:
+          $ref: ..\components\schemas\PlanDiscountCodeDto.yaml
+  responses:
+    '200':
+      description: Success
+      content:
+        text/plain:
+          schema:
+            type: boolean
+        application/json:
+          schema:
+            type: boolean
+        text/json:
+          schema:
+            type: boolean

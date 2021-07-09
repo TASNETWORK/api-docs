@@ -1,0 +1,29 @@
+required:
+  - displayName
+  - name
+type: object
+properties:
+  name:
+    maxLength: 32
+    minLength: 0
+    type: string
+    nullable: true
+  displayName:
+    maxLength: 64
+    minLength: 0
+    type: string
+    nullable: true
+  normalizedName:
+    type: string
+    nullable: true
+  description:
+    maxLength: 5000
+    minLength: 0
+    type: string
+    nullable: true
+  grantedPermissions:
+    type: array
+    items:
+      type: string
+    nullable: true
+additionalProperties: false

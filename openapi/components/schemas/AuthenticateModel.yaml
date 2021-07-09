@@ -1,0 +1,18 @@
+required:
+  - password
+  - userNameOrEmailAddress
+type: object
+properties:
+  userNameOrEmailAddress:
+    maxLength: 256
+    minLength: 0
+    type: string
+    nullable: true
+  password:
+    maxLength: 32
+    minLength: 0
+    type: string
+    nullable: true
+  rememberClient:
+    type: boolean
+additionalProperties: false

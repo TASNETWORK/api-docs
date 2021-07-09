@@ -1,0 +1,12 @@
+type: object
+properties:
+  annulmentOption:
+    type: integer
+    format: int64
+  travelInsuranceRequestId:
+    type: integer
+    format: int64
+  email:
+    type: string
+    nullable: true
+additionalProperties: false

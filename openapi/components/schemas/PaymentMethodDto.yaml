@@ -1,0 +1,12 @@
+type: object
+properties:
+  name:
+    type: string
+    nullable: true
+  id:
+    type: integer
+    format: int64
+  type:
+    type: integer
+    format: int64
+additionalProperties: false

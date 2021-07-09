@@ -1,0 +1,39 @@
+delete:
+  tags:
+    - DiscountCode
+  parameters:
+    - name: PlanId
+      in: query
+      schema:
+        type: integer
+        format: int64
+    - name: UserDiscountCodeId
+      in: query
+      schema:
+        type: integer
+        format: int64
+    - name: PercentDiscount
+      in: query
+      schema:
+        type: integer
+        format: int32
+    - name: Authentication
+      in: header
+      required: true
+      schema:
+        type: string
+        default: >-
+          c3B2LTItUEFnOVRmWjg5UVZqWjVZSDhVWkZoc3RrRHBHbmNkSkNxUUI4R2NTc1NxbXVrYjM0R0RBQVVETDlDNDdGN0Y4bg==
+  responses:
+    '200':
+      description: Success
+      content:
+        text/plain:
+          schema:
+            type: boolean
+        application/json:
+          schema:
+            type: boolean
+        text/json:
+          schema:
+            type: boolean
