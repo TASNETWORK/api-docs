@@ -1,8 +1,0 @@
-type: object
-properties:
-  travelInsuranceRequestId:
-    type: integer
-    format: int64
-  notification:
-    type: boolean
-additionalProperties: false

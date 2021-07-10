@@ -1,5 +1,0 @@
-enum:
-  - 0
-  - 1
-type: integer
-format: int32

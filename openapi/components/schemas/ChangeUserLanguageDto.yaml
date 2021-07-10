@@ -1,8 +1,0 @@
-required:
-  - languageName
-type: object
-properties:
-  languageName:
-    type: string
-    nullable: true
-additionalProperties: false

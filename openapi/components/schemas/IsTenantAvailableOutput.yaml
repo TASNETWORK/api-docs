@@ -1,9 +1,0 @@
-type: object
-properties:
-  state:
-    $ref: .\TenantAvailabilityState.yaml
-  tenantId:
-    type: integer
-    format: int32
-    nullable: true
-additionalProperties: false

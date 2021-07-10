@@ -1,6 +1,0 @@
-type: object
-properties:
-  crmObjectId:
-    type: string
-    nullable: true
-additionalProperties: false
