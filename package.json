@@ -8,6 +8,10 @@
   "scripts": {
     "start": "openapi preview-docs",
     "build": "openapi bundle -o dist",
-    "test": "openapi lint"
+    "test": "openapi lint",
+    "static": "npx redoc-cli bundle -t docs/template.html dist.yaml",
+    "move": "mv redoc-static.html docs/index.html",
+    "prod": "npm run build && npm run static && npm run move",
+    "remove": "rm dist.yaml && rm docs/index.html"
   }
 }

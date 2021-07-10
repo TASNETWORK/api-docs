@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: TAS API
+  title: API Reference | Travel Assistance Services
   version: v2
 paths:
   /api/services/app/Account/IsTenantAvailable:
