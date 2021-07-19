@@ -1,0 +1,32 @@
+get:
+  tags:
+    - Overview
+  description: |
+    Welcome to our API reference!
+
+    This is the reference documentation for the Sirena REST API. This API is based on resources which are represented by JSON format and are manipulated using the HTTP protocol.
+  Subjects:
+
+     Engineering:
+
+       Mechanical engineering:
+
+         Design and manufacture
+
+         Automobile
+
+         Control and Design
+
+       Civil engineering:
+
+         Structural engineering
+
+         Hydropower
+
+       Arts:
+
+         Medieval
+
+         Modern
+
+         Painting

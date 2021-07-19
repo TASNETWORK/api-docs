@@ -2,6 +2,23 @@ openapi: 3.0.1
 info:
   title: API Reference | Travel Assistance Services
   version: v2
+  contact:
+    email: ventas@traveler-assistance.com
+    url: 'https://www.traveler-assistance.com/'
+  x-logo:
+    url: 'https://www.traveler-assistance.com/templates/tas/images/logo-tas.png'
+  description: >
+    # Overview
+
+      Welcome to our API reference  
+      
+      This is the reference documentation for the Sirena REST API. This API is based on resources which are represented by JSON format and are manipulated using the HTTP protocol.
+
+    # What can this API do?
+externalDocs:
+  description: Here you can find the documentation with Swagger.
+  url: 'https://api-sandbox.pervolare.com/swagger/index.html'
+
 paths:
   /api/services/app/Account/IsTenantAvailable:
     $ref: paths\api@services@app@Account@IsTenantAvailable.yaml
