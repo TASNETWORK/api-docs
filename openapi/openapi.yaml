@@ -11,270 +11,271 @@ info:
     # Overview
 
       Welcome to our API reference  
-      
+
       This is the reference documentation for the Sirena REST API. This API is based on resources which are represented by JSON format and are manipulated using the HTTP protocol.
 
-    # What can this API do?
+    # What can you do with API TAS
 externalDocs:
   description: Here you can find the documentation with Swagger.
   url: 'https://api-sandbox.pervolare.com/swagger/index.html'
 
 paths:
-  /api/services/app/Account/IsTenantAvailable:
-    $ref: paths\api@services@app@Account@IsTenantAvailable.yaml
-  /api/services/app/Account/Register:
-    $ref: paths\api@services@app@Account@Register.yaml
-  /api/services/app/AssistanceRequest/Create:
-    $ref: paths\api@services@app@AssistanceRequest@Create.yaml
-  /api/services/app/AssistanceRequest/Update:
-    $ref: paths\api@services@app@AssistanceRequest@Update.yaml
-  /api/services/app/AssistanceRequest/Get:
-    $ref: paths\api@services@app@AssistanceRequest@Get.yaml
-  /api/services/app/AssistanceRequest/GetOrderByCode:
-    $ref: paths\api@services@app@AssistanceRequest@GetOrderByCode.yaml
-  /api/services/app/AssistanceRequest/GetAll:
-    $ref: paths\api@services@app@AssistanceRequest@GetAll.yaml
-  /api/services/app/AssistanceRequest/Delete:
-    $ref: paths\api@services@app@AssistanceRequest@Delete.yaml
-  /api/services/app/City/GetCitiesByVisa:
-    $ref: paths\api@services@app@City@GetCitiesByVisa.yaml
-  /api/services/app/City/Get:
-    $ref: paths\api@services@app@City@Get.yaml
-  /api/services/app/City/GetAll:
-    $ref: paths\api@services@app@City@GetAll.yaml
-  /api/services/app/City/Create:
-    $ref: paths\api@services@app@City@Create.yaml
-  /api/services/app/City/Update:
-    $ref: paths\api@services@app@City@Update.yaml
-  /api/services/app/City/Delete:
-    $ref: paths\api@services@app@City@Delete.yaml
-  /api/services/app/Configuration/ChangeUiTheme:
-    $ref: paths\api@services@app@Configuration@ChangeUiTheme.yaml
-  /api/services/app/Contact/ContactForm:
-    $ref: paths\api@services@app@Contact@ContactForm.yaml
-  /api/services/app/Contact/AgentForm:
-    $ref: paths\api@services@app@Contact@AgentForm.yaml
-  /api/services/app/Contact/CalledForm:
-    $ref: paths\api@services@app@Contact@CalledForm.yaml
-  /api/services/app/DashboardQuotation/DashboardQuote:
-    $ref: paths\api@services@app@DashboardQuotation@DashboardQuote.yaml
-  /api/services/app/DashboardQuotation/TemporalQuote:
-    $ref: paths\api@services@app@DashboardQuotation@TemporalQuote.yaml
-  /api/services/app/DashboardQuotation/DashboardPerkQuote:
-    $ref: paths\api@services@app@DashboardQuotation@DashboardPerkQuote.yaml
-  /api/services/app/DashboardQuotation/GetDashboardTravelInsuranceRequestQuote:
-    $ref: >-
-      paths\api@services@app@DashboardQuotation@GetDashboardTravelInsuranceRequestQuote.yaml
-  /api/services/app/DashboardQuotation/UpdatePayment:
-    $ref: paths\api@services@app@DashboardQuotation@UpdatePayment.yaml
-  /api/services/app/DashboardQuotation/GetCrmObjectId:
-    $ref: paths\api@services@app@DashboardQuotation@GetCrmObjectId.yaml
-  /api/services/app/DashboardQuotation/CreateTravelInsuranceRequestAnnulments:
-    $ref: >-
-      paths\api@services@app@DashboardQuotation@CreateTravelInsuranceRequestAnnulments.yaml
-  /api/services/app/DiscountCode/ActivateCode:
-    $ref: paths\api@services@app@DiscountCode@ActivateCode.yaml
-  /api/services/app/DiscountCode/ApplyDiscountCodeToPlan:
-    $ref: paths\api@services@app@DiscountCode@ApplyDiscountCodeToPlan.yaml
-  /api/services/app/DiscountCode/AssignDiscountCodeToUser:
-    $ref: paths\api@services@app@DiscountCode@AssignDiscountCodeToUser.yaml
-  /api/services/app/DiscountCode/DeactivateCode:
-    $ref: paths\api@services@app@DiscountCode@DeactivateCode.yaml
-  /api/services/app/DiscountCode/GetAllUserCode:
-    $ref: paths\api@services@app@DiscountCode@GetAllUserCode.yaml
-  /api/services/app/DiscountCode/RemoveDiscountCode:
-    $ref: paths\api@services@app@DiscountCode@RemoveDiscountCode.yaml
-  /api/services/app/DiscountCode/RemoveDiscountCodeToPlan:
-    $ref: paths\api@services@app@DiscountCode@RemoveDiscountCodeToPlan.yaml
-  /api/services/app/DiscountCode/GetAllDiscountCodes:
-    $ref: paths\api@services@app@DiscountCode@GetAllDiscountCodes.yaml
-  /api/services/app/DLocalPayment/CreatePayment:
-    $ref: paths\api@services@app@DLocalPayment@CreatePayment.yaml
-  /api/Documents/Certificate:
-    $ref: paths\api@Documents@Certificate.yaml
-  /api/Documents/Consulate:
-    $ref: paths\api@Documents@Consulate.yaml
-  /api/Documents/PurchaseOrder:
-    $ref: paths\api@Documents@PurchaseOrder.yaml
-  /api/Documents/Contract:
-    $ref: paths\api@Documents@Contract.yaml
-  /api/services/app/Geolocation/Geolocation:
-    $ref: paths\api@services@app@Geolocation@Geolocation.yaml
-  /api/services/app/MercadoPagoPayment/CreatePayment:
-    $ref: paths\api@services@app@MercadoPagoPayment@CreatePayment.yaml
-  /api/services/app/Parameter/GetParametersByDomain:
-    $ref: paths\api@services@app@Parameter@GetParametersByDomain.yaml
-  /api/services/app/PayPalPayment/ConfirmPayment:
-    $ref: paths\api@services@app@PayPalPayment@ConfirmPayment.yaml
-  /api/services/app/PayUPayment/ConfirmPayment:
-    $ref: paths\api@services@app@PayUPayment@ConfirmPayment.yaml
+  # /api/services/app/Account/IsTenantAvailable:
+  #   $ref: paths\api@services@app@Account@IsTenantAvailable.yaml
+  # /api/services/app/Account/Register:
+  #   $ref: paths\api@services@app@Account@Register.yaml
+  # /api/services/app/AssistanceRequest/Create:
+  #   $ref: paths\api@services@app@AssistanceRequest@Create.yaml
+  # /api/services/app/AssistanceRequest/Update:
+  #   $ref: paths\api@services@app@AssistanceRequest@Update.yaml
+  # /api/services/app/AssistanceRequest/Get:
+  #   $ref: paths\api@services@app@AssistanceRequest@Get.yaml
+  # /api/services/app/AssistanceRequest/GetOrderByCode:
+  #   $ref: paths\api@services@app@AssistanceRequest@GetOrderByCode.yaml
+  # /api/services/app/AssistanceRequest/GetAll:
+  #   $ref: paths\api@services@app@AssistanceRequest@GetAll.yaml
+  # /api/services/app/AssistanceRequest/Delete:
+  #   $ref: paths\api@services@app@AssistanceRequest@Delete.yaml
+  # /api/services/app/City/GetCitiesByVisa:
+  #   $ref: paths\api@services@app@City@GetCitiesByVisa.yaml
+  # /api/services/app/City/Get:
+  #   $ref: paths\api@services@app@City@Get.yaml
+  # /api/services/app/City/GetAll:
+  #   $ref: paths\api@services@app@City@GetAll.yaml
+  # /api/services/app/City/Create:
+  #   $ref: paths\api@services@app@City@Create.yaml
+  # /api/services/app/City/Update:
+  #   $ref: paths\api@services@app@City@Update.yaml
+  # /api/services/app/City/Delete:
+  #   $ref: paths\api@services@app@City@Delete.yaml
+  # /api/services/app/Configuration/ChangeUiTheme:
+  #   $ref: paths\api@services@app@Configuration@ChangeUiTheme.yaml
+  # /api/services/app/Contact/ContactForm:
+  #   $ref: paths\api@services@app@Contact@ContactForm.yaml
+  # /api/services/app/Contact/AgentForm:
+  #   $ref: paths\api@services@app@Contact@AgentForm.yaml
+  # /api/services/app/Contact/CalledForm:
+  #   $ref: paths\api@services@app@Contact@CalledForm.yaml
+  # /api/services/app/DashboardQuotation/DashboardQuote:
+  #   $ref: paths\api@services@app@DashboardQuotation@DashboardQuote.yaml
+  # /api/services/app/DashboardQuotation/TemporalQuote:
+  #   $ref: paths\api@services@app@DashboardQuotation@TemporalQuote.yaml
+  # /api/services/app/DashboardQuotation/DashboardPerkQuote:
+  #   $ref: paths\api@services@app@DashboardQuotation@DashboardPerkQuote.yaml
+  # /api/services/app/DashboardQuotation/GetDashboardTravelInsuranceRequestQuote:
+  #   $ref: >-
+  #     paths\api@services@app@DashboardQuotation@GetDashboardTravelInsuranceRequestQuote.yaml
+  # /api/services/app/DashboardQuotation/UpdatePayment:
+  #   $ref: paths\api@services@app@DashboardQuotation@UpdatePayment.yaml
+  # /api/services/app/DashboardQuotation/GetCrmObjectId:
+  #   $ref: paths\api@services@app@DashboardQuotation@GetCrmObjectId.yaml
+  # /api/services/app/DashboardQuotation/CreateTravelInsuranceRequestAnnulments:
+  #   $ref: >-
+  #     paths\api@services@app@DashboardQuotation@CreateTravelInsuranceRequestAnnulments.yaml
+  # /api/services/app/DiscountCode/ActivateCode:
+  #   $ref: paths\api@services@app@DiscountCode@ActivateCode.yaml
+  # /api/services/app/DiscountCode/ApplyDiscountCodeToPlan:
+  #   $ref: paths\api@services@app@DiscountCode@ApplyDiscountCodeToPlan.yaml
+  # /api/services/app/DiscountCode/AssignDiscountCodeToUser:
+  #   $ref: paths\api@services@app@DiscountCode@AssignDiscountCodeToUser.yaml
+  # /api/services/app/DiscountCode/DeactivateCode:
+  #   $ref: paths\api@services@app@DiscountCode@DeactivateCode.yaml
+  # /api/services/app/DiscountCode/GetAllUserCode:
+  #   $ref: paths\api@services@app@DiscountCode@GetAllUserCode.yaml
+  # /api/services/app/DiscountCode/RemoveDiscountCode:
+  #   $ref: paths\api@services@app@DiscountCode@RemoveDiscountCode.yaml
+  # /api/services/app/DiscountCode/RemoveDiscountCodeToPlan:
+  #   $ref: paths\api@services@app@DiscountCode@RemoveDiscountCodeToPlan.yaml
+  # /api/services/app/DiscountCode/GetAllDiscountCodes:
+  #   $ref: paths\api@services@app@DiscountCode@GetAllDiscountCodes.yaml
+  # /api/services/app/DLocalPayment/CreatePayment:
+  #   $ref: paths\api@services@app@DLocalPayment@CreatePayment.yaml
+  # /api/Documents/Certificate:
+  #   $ref: paths\api@Documents@Certificate.yaml
+  # /api/Documents/Consulate:
+  #   $ref: paths\api@Documents@Consulate.yaml
+  # /api/Documents/PurchaseOrder:
+  #   $ref: paths\api@Documents@PurchaseOrder.yaml
+  # /api/Documents/Contract:
+  #   $ref: paths\api@Documents@Contract.yaml
+  # /api/services/app/Geolocation/Geolocation:
+  #   $ref: paths\api@services@app@Geolocation@Geolocation.yaml
+  # /api/services/app/MercadoPagoPayment/CreatePayment:
+  #   $ref: paths\api@services@app@MercadoPagoPayment@CreatePayment.yaml
+  # /api/services/app/Parameter/GetParametersByDomain:
+  #   $ref: paths\api@services@app@Parameter@GetParametersByDomain.yaml
+  # /api/services/app/PayPalPayment/ConfirmPayment:
+  #   $ref: paths\api@services@app@PayPalPayment@ConfirmPayment.yaml
+  # /api/services/app/PayUPayment/ConfirmPayment:
+  #   $ref: paths\api@services@app@PayUPayment@ConfirmPayment.yaml
   /api/services/app/Quotation/Quote:
     $ref: paths\api@services@app@Quotation@Quote.yaml
   /api/services/app/Quotation/PerkQuote:
     $ref: paths\api@services@app@Quotation@PerkQuote.yaml
   /api/services/app/Quotation/GetTravelInsuranceRequestQuote:
     $ref: paths\api@services@app@Quotation@GetTravelInsuranceRequestQuote.yaml
-  /api/services/app/Role/Create:
-    $ref: paths\api@services@app@Role@Create.yaml
-  /api/services/app/Role/GetRoles:
-    $ref: paths\api@services@app@Role@GetRoles.yaml
-  /api/services/app/Role/Update:
-    $ref: paths\api@services@app@Role@Update.yaml
-  /api/services/app/Role/Delete:
-    $ref: paths\api@services@app@Role@Delete.yaml
-  /api/services/app/Role/GetAllPermissions:
-    $ref: paths\api@services@app@Role@GetAllPermissions.yaml
-  /api/services/app/Role/GetRoleForEdit:
-    $ref: paths\api@services@app@Role@GetRoleForEdit.yaml
-  /api/services/app/Role/Get:
-    $ref: paths\api@services@app@Role@Get.yaml
-  /api/services/app/Role/GetAll:
-    $ref: paths\api@services@app@Role@GetAll.yaml
-  /api/services/app/Session/GetCurrentLoginInformations:
-    $ref: paths\api@services@app@Session@GetCurrentLoginInformations.yaml
-  /api/services/app/StripePayment/ConfirmPayment:
-    $ref: paths\api@services@app@StripePayment@ConfirmPayment.yaml
-  /api/services/app/Tenant/Create:
-    $ref: paths\api@services@app@Tenant@Create.yaml
-  /api/services/app/Tenant/Delete:
-    $ref: paths\api@services@app@Tenant@Delete.yaml
-  /api/services/app/Tenant/Get:
-    $ref: paths\api@services@app@Tenant@Get.yaml
-  /api/services/app/Tenant/GetAll:
-    $ref: paths\api@services@app@Tenant@GetAll.yaml
-  /api/services/app/Tenant/Update:
-    $ref: paths\api@services@app@Tenant@Update.yaml
-  /api/TokenAuth/Authenticate:
-    $ref: paths\api@TokenAuth@Authenticate.yaml
-  /api/TokenAuth/GetExternalAuthenticationProviders:
-    $ref: paths\api@TokenAuth@GetExternalAuthenticationProviders.yaml
-  /api/TokenAuth/ExternalAuthenticate:
-    $ref: paths\api@TokenAuth@ExternalAuthenticate.yaml
-  /api/services/app/TravelInsuranceCustomer/UpdateCustomers:
-    $ref: paths\api@services@app@TravelInsuranceCustomer@UpdateCustomers.yaml
-  /api/services/app/TravelInsuranceCustomer/UpdateCustomer:
-    $ref: paths\api@services@app@TravelInsuranceCustomer@UpdateCustomer.yaml
-  /api/services/app/TravelInsuranceCustomer/Get:
-    $ref: paths\api@services@app@TravelInsuranceCustomer@Get.yaml
-  /api/services/app/TravelInsuranceCustomer/GetAll:
-    $ref: paths\api@services@app@TravelInsuranceCustomer@GetAll.yaml
-  /api/services/app/TravelInsuranceCustomer/Create:
-    $ref: paths\api@services@app@TravelInsuranceCustomer@Create.yaml
-  /api/services/app/TravelInsuranceCustomer/Update:
-    $ref: paths\api@services@app@TravelInsuranceCustomer@Update.yaml
-  /api/services/app/TravelInsuranceCustomer/Delete:
-    $ref: paths\api@services@app@TravelInsuranceCustomer@Delete.yaml
-  /api/services/app/TravelInsurancePerk/GetPerkById:
-    $ref: paths\api@services@app@TravelInsurancePerk@GetPerkById.yaml
-  /api/services/app/TravelInsurancePerk/Get:
-    $ref: paths\api@services@app@TravelInsurancePerk@Get.yaml
-  /api/services/app/TravelInsurancePerk/GetAll:
-    $ref: paths\api@services@app@TravelInsurancePerk@GetAll.yaml
-  /api/services/app/TravelInsurancePerk/Create:
-    $ref: paths\api@services@app@TravelInsurancePerk@Create.yaml
-  /api/services/app/TravelInsurancePerk/Update:
-    $ref: paths\api@services@app@TravelInsurancePerk@Update.yaml
-  /api/services/app/TravelInsurancePerk/Delete:
-    $ref: paths\api@services@app@TravelInsurancePerk@Delete.yaml
-  /api/services/app/TravelInsurancePlan/GetAllPlans:
-    $ref: paths\api@services@app@TravelInsurancePlan@GetAllPlans.yaml
-  /api/services/app/TravelInsurancePlan/GetAllPlansTenants:
-    $ref: paths\api@services@app@TravelInsurancePlan@GetAllPlansTenants.yaml
-  /api/services/app/TravelInsurancePlan/GetPlanById:
-    $ref: paths\api@services@app@TravelInsurancePlan@GetPlanById.yaml
-  /api/services/app/TravelInsurancePlan/Get:
-    $ref: paths\api@services@app@TravelInsurancePlan@Get.yaml
-  /api/services/app/TravelInsurancePlan/GetAll:
-    $ref: paths\api@services@app@TravelInsurancePlan@GetAll.yaml
-  /api/services/app/TravelInsurancePlan/Create:
-    $ref: paths\api@services@app@TravelInsurancePlan@Create.yaml
-  /api/services/app/TravelInsurancePlan/Update:
-    $ref: paths\api@services@app@TravelInsurancePlan@Update.yaml
-  /api/services/app/TravelInsurancePlan/Delete:
-    $ref: paths\api@services@app@TravelInsurancePlan@Delete.yaml
-  /api/services/app/TravelInsuranceRequest/Update:
-    $ref: paths\api@services@app@TravelInsuranceRequest@Update.yaml
-  /api/services/app/TravelInsuranceRequest/UpdateCity:
-    $ref: paths\api@services@app@TravelInsuranceRequest@UpdateCity.yaml
-  /api/services/app/TravelInsuranceRequest/GetOrderStatus:
-    $ref: paths\api@services@app@TravelInsuranceRequest@GetOrderStatus.yaml
-  /api/services/app/TravelInsuranceRequest/GetOrderByCode:
-    $ref: paths\api@services@app@TravelInsuranceRequest@GetOrderByCode.yaml
-  /api/services/app/TravelInsuranceRequest/GetPriceByHash:
-    $ref: paths\api@services@app@TravelInsuranceRequest@GetPriceByHash.yaml
-  /api/services/app/TravelInsuranceRequest/ToggleNewsLetter:
-    $ref: paths\api@services@app@TravelInsuranceRequest@ToggleNewsLetter.yaml
-  /api/services/app/TravelInsuranceRequest/Get:
-    $ref: paths\api@services@app@TravelInsuranceRequest@Get.yaml
-  /api/services/app/TravelInsuranceRequest/GetAll:
-    $ref: paths\api@services@app@TravelInsuranceRequest@GetAll.yaml
-  /api/services/app/TravelInsuranceRequest/Create:
-    $ref: paths\api@services@app@TravelInsuranceRequest@Create.yaml
-  /api/services/app/TravelInsuranceRequest/Delete:
-    $ref: paths\api@services@app@TravelInsuranceRequest@Delete.yaml
-  /api/services/app/TravelInsuranceRequest/GetAdmin:
-    $ref: paths\api@services@app@TravelInsuranceRequest@GetAdmin.yaml
-  /api/services/app/TravelInsuranceRequest/GetTravelInsuranceRequestByPurchaseNumber:
-    $ref: >-
-      paths\api@services@app@TravelInsuranceRequest@GetTravelInsuranceRequestByPurchaseNumber.yaml
-  /api/services/app/TravelInsuranceRequest/TravelUpdateStatus:
-    $ref: paths\api@services@app@TravelInsuranceRequest@TravelUpdateStatus.yaml
-  /api/services/app/TravelInsuranceRequest/TravelUpdateAdmin:
-    $ref: paths\api@services@app@TravelInsuranceRequest@TravelUpdateAdmin.yaml
-  /api/services/app/TravelInsuranceRequest/TravelInsuranceRequestlReport:
-    $ref: >-
-      paths\api@services@app@TravelInsuranceRequest@TravelInsuranceRequestlReport.yaml
-  /api/services/app/TravelInsuranceRequestCompleteInfo/CompleteInfo:
-    $ref: >-
-      paths\api@services@app@TravelInsuranceRequestCompleteInfo@CompleteInfo.yaml
-  /api/services/app/TravelMotive/Get:
-    $ref: paths\api@services@app@TravelMotive@Get.yaml
-  /api/services/app/TravelMotive/GetAll:
-    $ref: paths\api@services@app@TravelMotive@GetAll.yaml
-  /api/services/app/TravelMotive/Create:
-    $ref: paths\api@services@app@TravelMotive@Create.yaml
-  /api/services/app/TravelMotive/Update:
-    $ref: paths\api@services@app@TravelMotive@Update.yaml
-  /api/services/app/TravelMotive/Delete:
-    $ref: paths\api@services@app@TravelMotive@Delete.yaml
-  /api/services/app/TypeAnnulmentRequest/Get:
-    $ref: paths\api@services@app@TypeAnnulmentRequest@Get.yaml
-  /api/services/app/TypeAnnulmentRequest/GetAll:
-    $ref: paths\api@services@app@TypeAnnulmentRequest@GetAll.yaml
-  /api/services/app/TypeAnnulmentRequest/Create:
-    $ref: paths\api@services@app@TypeAnnulmentRequest@Create.yaml
-  /api/services/app/TypeAnnulmentRequest/Update:
-    $ref: paths\api@services@app@TypeAnnulmentRequest@Update.yaml
-  /api/services/app/TypeAnnulmentRequest/Delete:
-    $ref: paths\api@services@app@TypeAnnulmentRequest@Delete.yaml
-  /api/services/app/User/Create:
-    $ref: paths\api@services@app@User@Create.yaml
-  /api/services/app/User/Update:
-    $ref: paths\api@services@app@User@Update.yaml
-  /api/services/app/User/Delete:
-    $ref: paths\api@services@app@User@Delete.yaml
-  /api/services/app/User/GetRoles:
-    $ref: paths\api@services@app@User@GetRoles.yaml
-  /api/services/app/User/ChangeLanguage:
-    $ref: paths\api@services@app@User@ChangeLanguage.yaml
-  /api/services/app/User/ChangePassword:
-    $ref: paths\api@services@app@User@ChangePassword.yaml
-  /api/services/app/User/ResetPassword:
-    $ref: paths\api@services@app@User@ResetPassword.yaml
-  /api/services/app/User/Get:
-    $ref: paths\api@services@app@User@Get.yaml
-  /api/services/app/User/GetAll:
-    $ref: paths\api@services@app@User@GetAll.yaml
-  /api/services/app/Visa/GetAll:
-    $ref: paths\api@services@app@Visa@GetAll.yaml
-  /api/services/app/Visa/Get:
-    $ref: paths\api@services@app@Visa@Get.yaml
-  /api/services/app/Visa/Create:
-    $ref: paths\api@services@app@Visa@Create.yaml
-  /api/services/app/Visa/Update:
-    $ref: paths\api@services@app@Visa@Update.yaml
-  /api/services/app/Visa/Delete:
-    $ref: paths\api@services@app@Visa@Delete.yaml
+  # /api/services/app/Role/Create:
+  #   $ref: paths\api@services@app@Role@Create.yaml
+  # /api/services/app/Role/GetRoles:
+  #   $ref: paths\api@services@app@Role@GetRoles.yaml
+  # /api/services/app/Role/Update:
+  #   $ref: paths\api@services@app@Role@Update.yaml
+  # /api/services/app/Role/Delete:
+  #   $ref: paths\api@services@app@Role@Delete.yaml
+  # /api/services/app/Role/GetAllPermissions:
+  #   $ref: paths\api@services@app@Role@GetAllPermissions.yaml
+  # /api/services/app/Role/GetRoleForEdit:
+  #   $ref: paths\api@services@app@Role@GetRoleForEdit.yaml
+  # /api/services/app/Role/Get:
+  #   $ref: paths\api@services@app@Role@Get.yaml
+  # /api/services/app/Role/GetAll:
+  #   $ref: paths\api@services@app@Role@GetAll.yaml
+  # /api/services/app/Session/GetCurrentLoginInformations:
+  #   $ref: paths\api@services@app@Session@GetCurrentLoginInformations.yaml
+  # /api/services/app/StripePayment/ConfirmPayment:
+  #   $ref: paths\api@services@app@StripePayment@ConfirmPayment.yaml
+  # /api/services/app/Tenant/Create:
+  #   $ref: paths\api@services@app@Tenant@Create.yaml
+  # /api/services/app/Tenant/Delete:
+  #   $ref: paths\api@services@app@Tenant@Delete.yaml
+  # /api/services/app/Tenant/Get:
+  #   $ref: paths\api@services@app@Tenant@Get.yaml
+  # /api/services/app/Tenant/GetAll:
+  #   $ref: paths\api@services@app@Tenant@GetAll.yaml
+  # /api/services/app/Tenant/Update:
+  #   $ref: paths\api@services@app@Tenant@Update.yaml
+  # /api/TokenAuth/Authenticate:
+  #   $ref: paths\api@TokenAuth@Authenticate.yaml
+  # /api/TokenAuth/GetExternalAuthenticationProviders:
+  #   $ref: paths\api@TokenAuth@GetExternalAuthenticationProviders.yaml
+  # /api/TokenAuth/ExternalAuthenticate:
+  #   $ref: paths\api@TokenAuth@ExternalAuthenticate.yaml
+  # /api/services/app/TravelInsuranceCustomer/UpdateCustomers:
+  #   $ref: paths\api@services@app@TravelInsuranceCustomer@UpdateCustomers.yaml
+  # /api/services/app/TravelInsuranceCustomer/UpdateCustomer:
+  #   $ref: paths\api@services@app@TravelInsuranceCustomer@UpdateCustomer.yaml
+  # /api/services/app/TravelInsuranceCustomer/Get:
+  #   $ref: paths\api@services@app@TravelInsuranceCustomer@Get.yaml
+  # /api/services/app/TravelInsuranceCustomer/GetAll:
+  #   $ref: paths\api@services@app@TravelInsuranceCustomer@GetAll.yaml
+  # /api/services/app/TravelInsuranceCustomer/Create:
+  #   $ref: paths\api@services@app@TravelInsuranceCustomer@Create.yaml
+  # /api/services/app/TravelInsuranceCustomer/Update:
+  #   $ref: paths\api@services@app@TravelInsuranceCustomer@Update.yaml
+  # /api/services/app/TravelInsuranceCustomer/Delete:
+  #   $ref: paths\api@services@app@TravelInsuranceCustomer@Delete.yaml
+  # /api/services/app/TravelInsurancePerk/GetPerkById:
+  #   $ref: paths\api@services@app@TravelInsurancePerk@GetPerkById.yaml
+  # /api/services/app/TravelInsurancePerk/Get:
+  #   $ref: paths\api@services@app@TravelInsurancePerk@Get.yaml
+  # /api/services/app/TravelInsurancePerk/GetAll:
+  #   $ref: paths\api@services@app@TravelInsurancePerk@GetAll.yaml
+  # /api/services/app/TravelInsurancePerk/Create:
+  #   $ref: paths\api@services@app@TravelInsurancePerk@Create.yaml
+  # /api/services/app/TravelInsurancePerk/Update:
+  #   $ref: paths\api@services@app@TravelInsurancePerk@Update.yaml
+  # /api/services/app/TravelInsurancePerk/Delete:
+  #   $ref: paths\api@services@app@TravelInsurancePerk@Delete.yaml
+  # /api/services/app/TravelInsurancePlan/GetAllPlans:
+  #   $ref: paths\api@services@app@TravelInsurancePlan@GetAllPlans.yaml
+  # /api/services/app/TravelInsurancePlan/GetAllPlansTenants:
+  #   $ref: paths\api@services@app@TravelInsurancePlan@GetAllPlansTenants.yaml
+  # /api/services/app/TravelInsurancePlan/GetPlanById:
+  #   $ref: paths\api@services@app@TravelInsurancePlan@GetPlanById.yaml
+  # /api/services/app/TravelInsurancePlan/Get:
+  #   $ref: paths\api@services@app@TravelInsurancePlan@Get.yaml
+  # /api/services/app/TravelInsurancePlan/GetAll:
+  #   $ref: paths\api@services@app@TravelInsurancePlan@GetAll.yaml
+  # /api/services/app/TravelInsurancePlan/Create:
+  #   $ref: paths\api@services@app@TravelInsurancePlan@Create.yaml
+  # /api/services/app/TravelInsurancePlan/Update:
+  #   $ref: paths\api@services@app@TravelInsurancePlan@Update.yaml
+  # /api/services/app/TravelInsurancePlan/Delete:
+  #   $ref: paths\api@services@app@TravelInsurancePlan@Delete.yaml
+  # /api/services/app/TravelInsuranceRequest/Update:
+  #   $ref: paths\api@services@app@TravelInsuranceRequest@Update.yaml
+  # /api/services/app/TravelInsuranceRequest/UpdateCity:
+  #   $ref: paths\api@services@app@TravelInsuranceRequest@UpdateCity.yaml
+  # /api/services/app/TravelInsuranceRequest/GetOrderStatus:
+  #   $ref: paths\api@services@app@TravelInsuranceRequest@GetOrderStatus.yaml
+  # /api/services/app/TravelInsuranceRequest/GetOrderByCode:
+  #   $ref: paths\api@services@app@TravelInsuranceRequest@GetOrderByCode.yaml
+  # /api/services/app/TravelInsuranceRequest/GetPriceByHash:
+  #   $ref: paths\api@services@app@TravelInsuranceRequest@GetPriceByHash.yaml
+  # /api/services/app/TravelInsuranceRequest/ToggleNewsLetter:
+  #   $ref: paths\api@services@app@TravelInsuranceRequest@ToggleNewsLetter.yaml
+  # /api/services/app/TravelInsuranceRequest/Get:
+  #   $ref: paths\api@services@app@TravelInsuranceRequest@Get.yaml
+  # /api/services/app/TravelInsuranceRequest/GetAll:
+  #   $ref: paths\api@services@app@TravelInsuranceRequest@GetAll.yaml
+  # /api/services/app/TravelInsuranceRequest/Create:
+  #   $ref: paths\api@services@app@TravelInsuranceRequest@Create.yaml
+  # /api/services/app/TravelInsuranceRequest/Delete:
+  #   $ref: paths\api@services@app@TravelInsuranceRequest@Delete.yaml
+  # /api/services/app/TravelInsuranceRequest/GetAdmin:
+  #   $ref: paths\api@services@app@TravelInsuranceRequest@GetAdmin.yaml
+  # /api/services/app/TravelInsuranceRequest/GetTravelInsuranceRequestByPurchaseNumber:
+  #   $ref: >-
+  #     paths\api@services@app@TravelInsuranceRequest@GetTravelInsuranceRequestByPurchaseNumber.yaml
+  # /api/services/app/TravelInsuranceRequest/TravelUpdateStatus:
+  #   $ref: paths\api@services@app@TravelInsuranceRequest@TravelUpdateStatus.yaml
+  # /api/services/app/TravelInsuranceRequest/TravelUpdateAdmin:
+  #   $ref: paths\api@services@app@TravelInsuranceRequest@TravelUpdateAdmin.yaml
+  # /api/services/app/TravelInsuranceRequest/TravelInsuranceRequestlReport:
+  #   $ref: >-
+  #     paths\api@services@app@TravelInsuranceRequest@TravelInsuranceRequestlReport.yaml
+  # /api/services/app/TravelInsuranceRequestCompleteInfo/CompleteInfo:
+  #   $ref: >-
+  #     paths\api@services@app@TravelInsuranceRequestCompleteInfo@CompleteInfo.yaml
+  # /api/services/app/TravelMotive/Get:
+  #   $ref: paths\api@services@app@TravelMotive@Get.yaml
+  # /api/services/app/TravelMotive/GetAll:
+  #   $ref: paths\api@services@app@TravelMotive@GetAll.yaml
+  # /api/services/app/TravelMotive/Create:
+  #   $ref: paths\api@services@app@TravelMotive@Create.yaml
+  # /api/services/app/TravelMotive/Update:
+  #   $ref: paths\api@services@app@TravelMotive@Update.yaml
+  # /api/services/app/TravelMotive/Delete:
+  #   $ref: paths\api@services@app@TravelMotive@Delete.yaml
+  # /api/services/app/TypeAnnulmentRequest/Get:
+  #   $ref: paths\api@services@app@TypeAnnulmentRequest@Get.yaml
+  # /api/services/app/TypeAnnulmentRequest/GetAll:
+  #   $ref: paths\api@services@app@TypeAnnulmentRequest@GetAll.yaml
+  # /api/services/app/TypeAnnulmentRequest/Create:
+  #   $ref: paths\api@services@app@TypeAnnulmentRequest@Create.yaml
+  # /api/services/app/TypeAnnulmentRequest/Update:
+  #   $ref: paths\api@services@app@TypeAnnulmentRequest@Update.yaml
+  # /api/services/app/TypeAnnulmentRequest/Delete:
+  #   $ref: paths\api@services@app@TypeAnnulmentRequest@Delete.yaml
+  # /api/services/app/User/Create:
+  #   $ref: paths\api@services@app@User@Create.yaml
+  # /api/services/app/User/Update:
+  #   $ref: paths\api@services@app@User@Update.yaml
+  # /api/services/app/User/Delete:
+  #   $ref: paths\api@services@app@User@Delete.yaml
+  # /api/services/app/User/GetRoles:
+  #   $ref: paths\api@services@app@User@GetRoles.yaml
+  # /api/services/app/User/ChangeLanguage:
+  #   $ref: paths\api@services@app@User@ChangeLanguage.yaml
+  # /api/services/app/User/ChangePassword:
+  #   $ref: paths\api@services@app@User@ChangePassword.yaml
+  # /api/services/app/User/ResetPassword:
+  #   $ref: paths\api@services@app@User@ResetPassword.yaml
+  # /api/services/app/User/Get:
+  #   $ref: paths\api@services@app@User@Get.yaml
+  # /api/services/app/User/GetAll:
+  #   $ref: paths\api@services@app@User@GetAll.yaml
+  # /api/services/app/Visa/GetAll:
+  #   $ref: paths\api@services@app@Visa@GetAll.yaml
+  # /api/services/app/Visa/Get:
+  #   $ref: paths\api@services@app@Visa@Get.yaml
+  # /api/services/app/Visa/Create:
+  #   $ref: paths\api@services@app@Visa@Create.yaml
+  # /api/services/app/Visa/Update:
+  #   $ref: paths\api@services@app@Visa@Update.yaml
+  # /api/services/app/Visa/Delete:
+  #   $ref: paths\api@services@app@Visa@Delete.yaml
+
 components:
   securitySchemes:
     bearerAuth:

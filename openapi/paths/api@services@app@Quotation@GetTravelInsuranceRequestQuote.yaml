@@ -1,6 +1,8 @@
 get:
   tags:
     - Quotation
+  summary: Travel Insurance Request
+  description: Get the information from a travel insurance request.
   parameters:
     - name: HashCode
       in: query

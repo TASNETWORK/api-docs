@@ -1,6 +1,8 @@
 post:
   tags:
     - Quotation
+  summary: Perk Quote
+  description: Service in charge of calculating the value of the perks chosen by the client.
   parameters:
     - name: Authentication
       in: header

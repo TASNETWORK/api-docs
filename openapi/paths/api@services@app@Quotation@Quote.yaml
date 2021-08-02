@@ -1,6 +1,8 @@
 post:
   tags:
     - Quotation
+  summary: Quote
+  description: Service that allows you to make a quote applying the current business rules, which returns the unique quote code, for later use in the purchase process.
   parameters:
     - name: Authentication
       in: header

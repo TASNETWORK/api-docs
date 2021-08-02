@@ -3,4 +3,5 @@ properties:
   hashCode:
     type: string
     nullable: true
+    description: Identifier composed of the ID of the quote and the IDs of the plans available for that quote.
 additionalProperties: false
